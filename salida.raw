@@ -1,0 +1,41 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-09 14:36 -03
+Nmap scan report for 192.168.253.1
+Host is up (0.00077s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for _gateway (192.168.253.2)
+Host is up (0.00023s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  (generic dns response: NOTIMP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=10/9%Time=6706BF2E%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x84\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03")%r(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x84\0\0
+SF:\0\0\0\0\0\0");
+MAC Address: 00:50:56:EB:26:8E (VMware)
+
+Nmap scan report for 192.168.253.254
+Host is up (0.00014s latency).
+All 1000 scanned ports on 192.168.253.254 are filtered
+MAC Address: 00:50:56:EC:74:53 (VMware)
+
+Nmap scan report for deero-virtual-machine (192.168.253.128)
+Host is up (0.0000060s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.5
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (4 hosts up) scanned in 29.86 seconds

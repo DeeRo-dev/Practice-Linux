@@ -1,0 +1,13 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-09 14:36 -03
+Nmap scan report for 192.168.253.1
+Host is up (0.00077s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+5357/tcp open  http            Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
